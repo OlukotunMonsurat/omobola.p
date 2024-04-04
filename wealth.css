@@ -1,0 +1,258 @@
+:root {
+    --background-color:#e5e5dc; --text-color: #222222; 
+    body{font-family:sans-serif;
+        background-color: var(--background-color);
+        color: var(--text-color); 
+    }
+    .dark-mode{--background-color:#222222;
+        --text-color: #ffffff; 
+
+    }
+    /*f8f8ac*/
+}
+    
+    #Home {text-decoration: none;}
+
+
+    .navbar{
+       background-color: #1e3d59;
+       overflow: hidden;
+       padding: 15px;
+       
+    }
+    .Welcome{
+        color:red
+    }
+
+    #toggleTheme{
+        background-color: red;
+    }
+    .change{
+        color: black;
+    }
+    .navbar ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position:absolute;
+    }
+    .navbar li{
+       display: inline;
+    }
+    .navbar li a{  
+        display: inline-block;
+        color: white;
+        padding: 13px 15px;
+        text-decoration: none;
+    }
+    .navbar a:active{
+        background-color: #e5e5dc;
+        color: white;
+    }
+    .navbar a:hover:not(.active){
+        background-color: #000000;
+        color: white;
+    }
+    marquee{
+        font-size: large;
+        color: white;
+        text-decoration: wavy;
+        text-align: center;
+    }
+    
+   .space {
+    display: flex;
+    flex-wrap: wrap;
+    color:#ffffff
+   }
+.section{
+    flex: 1;
+    margin: 30px;
+    box-sizing:content-box;
+    border-width: 10px thin 20px thick;
+    
+}
+.create{
+    border: 1px solid #000000;
+    border-width: 6px thin 7px thick;
+    border-radius: 50px 50px 50px 50px;
+    margin: 20px 500px 20px 20px;
+    background-color:#1e3d59;   
+}
+.service{
+    margin-right: 30px;
+    overflow: hidden;
+    padding-left: 20px;
+    color: #ffffff;
+}
+.second{
+    border: 1px solid #000000;
+    border-width: 6px thin 7px thick;
+    border-radius: 50px 50px 50px 50px;
+    margin: 20px 1px 20px 500px;
+    background-color:#1e3d59;
+    padding: 16px 17px;
+
+}
+.mycontact{
+background-color: #ffffff;
+overflow: hidden;
+text-align: center;
+}
+.mycontact a{
+    text-decoration: none;
+    color: #000000;
+    font-size: larger;
+}
+.mycontact img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.blue{
+    width: 20px;
+    height: 20px;
+   position: relative;
+    top:30px;
+    right:42em;
+}
+#moving-image{
+    position: absolute;
+}
+.shape{
+    border-radius: 100px;
+
+}
+.secondtop{
+    background-color: #ffffff;
+    position: fixed;
+    top: auto;
+    
+}
+.heading1{
+    text-align: center;
+    margin-right: 10em;
+}
+.headingclose{
+    text-align: center;
+    margin-right: 10em;
+}
+.heading2{
+    text-align: right;
+    margin-left: 5em;
+}
+.headingclose2{
+    text-align: right;
+    margin-left: 5em;
+}
+.vertical-line{
+    border: 2px solid white;
+    height: 100%;
+    border-radius: 100em 100em ;
+    overflow: hidden;
+}
+.design{
+    margin:50px 75px;
+    font-size: 25px;
+}
+.line{
+    border-left: 1px solid #ffffff;
+   display: inline-block;
+  
+}
+.contactsecond{
+    border: 1px solid black;
+    border-width: 150px;
+    border-spacing: 100px;
+    background-color: #000000;
+    margin: 1px 30px;
+    
+}
+.platforms{
+    color:white;
+    text-align: center;
+}
+.contactsecond a{
+    text-decoration: none;
+    padding: 5px;
+}
+.contactsecond img{
+ width:20px;
+ height: 20px;
+ position: relative;
+ left:400px;
+ top: 1px;
+}
+.inputtype{
+    position: relative;
+    width: 0;
+    height: 100%;
+    margin: 30px;
+
+}
+.inputtype .input-space{
+    padding-bottom:20px;
+}
+.input-space{
+   margin-bottom: 30px;
+   border-radius: 40px 40px;
+   border-width: 30px;
+}
+textarea{
+    margin-left: 35px;
+    width: auto;
+}
+.sendme{
+    margin-left: 30px;
+}
+#input-heigth{
+   height: 200px;
+}
+#input-name{
+    height: 100px;
+}
+#input-email{
+    height: 100px;
+}
+.receive img{
+    width: 21px;
+    height: 21px;
+}
+.receive{
+    padding-bottom: 10px;
+}
+.omo{
+    max-width: 1200px;
+    margin: auto;
+    background: #e5e5dc;
+    overflow: auto;
+}
+.gallary{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+.gallary img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 50px;
+    text-align: center;
+    color: black;
+}
+
+
+
+
+
+    
+
+    
+
+
+
+
+   
+    
